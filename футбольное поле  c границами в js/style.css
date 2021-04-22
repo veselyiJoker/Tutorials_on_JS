@@ -1,0 +1,21 @@
+.field{
+  position: relative;
+  width: 400px;
+  height: 250px;
+  background: green;
+  border:15px solid black;
+  font-size: 40px;
+  padding: 0px;
+}
+
+.ball{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: orange;
+  font-size: 11px;
+  text-align:center;
+  border-radius: 999px;
+  padding: 0px;
+  transition: 0.5s;
+}
