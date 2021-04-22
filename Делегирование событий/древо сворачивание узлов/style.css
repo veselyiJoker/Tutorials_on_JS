@@ -1,0 +1,23 @@
+.message-block {
+  float: right;
+  width: 32%;
+}
+
+.cross {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+  color: maroon;
+}
+
+.message {
+  position: relative;
+  max-width: 100%;
+  height: 140px;
+  background: olive;
+}
+
+.hide {
+  display: none;
+}

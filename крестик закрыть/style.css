@@ -1,0 +1,16 @@
+.comments{
+  position: relative;
+  background: #769367;
+  width: 30%;
+  margin: 10px;
+  margin-left: auto;
+  padding: 5px;
+}
+
+.cross{
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: maroon;
+  cursor: pointer;
+}

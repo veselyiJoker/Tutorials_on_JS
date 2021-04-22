@@ -1,0 +1,29 @@
+.drop-down-menu{
+}
+
+.drop-down-menu-button {
+ background: #997880;
+ width: 90px;
+ height: 30px;
+}
+
+.drop-down-menu-button::before {
+  content: '▶ ';
+  font-size: 80%;
+  color: maroon;
+}
+
+.drop-down-menu.open .drop-down-menu-button::before {
+  content: '▼ ';
+}
+
+.list {
+  margin: 0;
+  list-style: none;
+  padding-left: 20px;
+  display: none;
+}
+
+.drop-down-menu.open .list {
+  display: block;
+}
