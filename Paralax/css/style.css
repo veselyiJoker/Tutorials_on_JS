@@ -1,0 +1,14 @@
+html,body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.home {
+  height: 100vh;
+  max-height: 1080px;
+  background-image: url(../images/test2.jpg);
+  background-size: 110%;
+  background-position: 50% 10%;
+  background-repeat: no-repeat;
+  transition: 0.1s;
+}
